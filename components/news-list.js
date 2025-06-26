@@ -1,3 +1,5 @@
+import Link from "next/link.js"
+
 export default function NewsList({ news }) {
   return (
     <ul className='news-list'>
